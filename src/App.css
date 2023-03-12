@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+ background: linear-gradient(
+    to right,
+    #0a1d35,
+    #402646ec,
+    #8141ae,
+    #a588a7
+  ); 
+  min-height: 100vh;
+}
+
+.main-box {
+  max-width: 500px;
+  width: 92%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.uye-box {
+  padding: 1em 0 3em;
+}
+
+.uye-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 0.5em;
+}
+
+.boxes {
+  padding: 30px 30px 24px;
+  border-radius: 8px;
+  background-color: #fff;
+  color:#422a75;
+}
+
+.uye-kutusu {
+  width: 240px;
+}
+
+.uye-isim {
+  margin: 0;
+  color: #422a75;
+  font-size: 20px;
+ 
+}
+.uye-ozellik {
+  margin-top: 12px;
+}
+
+.uye-ozellik {
+  padding: 0.5em 0;
+}
+
+.uye-ozellik .uye-icbaslik {
+  font-size:15px;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+  font-weight:700;
+  letter-spacing: 1px;
+  color: #422a75a6;
+}
+
+.uye-ozellik .uye-tag{
+  color:rgba(128, 128, 128, 0.733);
+  font-weight: 500;
+}
+
+.uye-baslik{
+  color:white;
+  text-align: center;
+}
+
+input, select{
+width: 180px;
+height:20px;
+text-align: center;
+border-color: #422a75;
+border-width: 2px;
+color:#422a75;
+}
+
+form{
+  color:#422a75;
+  font-weight: 600;
+  border-radius: 8px;
+}
